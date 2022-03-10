@@ -1,0 +1,32 @@
+{
+    "short_name": "BizChatPay",
+    "name": "Smartest Payment Choice",
+    "start_url": "/home/index/",
+    "display": "standalone",
+    "background_color": "#bc5fa4",
+    "theme_color": "#bc5fa4",
+    "orientation": "portrait-primary",
+    "icons": [{
+            "src": "/Pwa/Images/screenshot192.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/Pwa/Images/screenshot512.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "description": "Smart easy payment with Smart Phone and QRCode Image",
+    "screenshots": [{
+            "src": "/Pwa/Images/screenshot.png",
+            "type": "image/png",
+            "sizes": "540x720"
+        },
+        {
+            "src": "/Pwa/Images/screenshot.png",
+            "type": "image/jpg",
+            "sizes": "540x720"
+        }
+    ]
+}

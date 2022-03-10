@@ -1,0 +1,27 @@
+#pbm-d-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    width: 100%;
+}
+
+#pbm-d-nav,
+#pbm-d-header {
+    background-color: #C9782F;
+    background: #C9782F;
+    background-image: #C9782F;
+    border: none;
+    margin: 0;
+}
+
+#pbm-header-wrap {
+    width: 100%;
+    background-color: #C9782F;
+    background: #C9782F;
+    background-image: #C9782F;
+}
+
+#pbm-d-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}

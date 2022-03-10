@@ -1,0 +1,44 @@
+/*********************************STICKY HEADER*********************************************/
+
+.stickyMenu {
+    width: 100%;
+    min-width: 100%;
+    z-index: 1000;
+    border-bottom: 1px solid #f1f1f1;
+    background-color: #ffffff;
+    top: 0;
+    height: 82px;
+    display: grid;
+    position: fixed;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+@keyframes sticky_header_effect {
+    from {
+        margin-top: -40px;
+        transition: margin-top 15s;
+        background-color: rgba(255, 106, 0, 1);
+    }
+    to {
+        margin-top: 0px;
+        transition: margin-top 15s;
+        background-color: #ffffff;
+    }
+}
+
+@keyframes sticky_tiny_header_effect {
+    from {
+        margin-top: -40px;
+        transition: margin-top 15s;
+        background-color: #999999;
+    }
+    to {
+        margin-top: 0px;
+        transition: margin-top 15s;
+        background-color: #000000;
+    }
+}
+
+
+/**********************************STICKY HEADER ENDS**************************************/

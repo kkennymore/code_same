@@ -1,0 +1,71 @@
+.header {
+    width: 100%;
+    max-width: 100%;
+    height: 65px;
+    position: relative;
+    border-bottom: 1px solid #f1f1f1;
+    margin-bottom: 20px;
+}
+
+.header .header-wrap {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1.6fr;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    min-width: 65px;
+}
+
+.logo a {
+    outline: none;
+    text-decoration: none;
+}
+
+.logo a h2 {
+    color: #773c68;
+    font-size: 18px;
+}
+
+.logo a img {
+    width: 50px;
+    height: 40px;
+}
+
+.header-wrap ul {
+    grid: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.header-wrap ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.header-wrap ul li a {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 25px 20px 0 20px;
+    margin: 0;
+}
+
+.login-wrap li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.login-wrap li a {
+    padding: 25px 10px 0 10px;
+    text-decoration: none;
+    color: #773c68;
+}

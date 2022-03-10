@@ -1,0 +1,36 @@
+.img {
+    transform: translateX(0%);
+    animation: .8s fadePage linear;
+    transition: 10s animation;
+    -webkit-animation: .8s fadePage linear;
+    -moz-animation: .8s fadePage linear;
+    -o-animation: .8s fadePage linear;
+}
+
+#loadingImageGif {
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    background-color: hsl(30, 100%, 96%);
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    display: block;
+}
+
+#loadingImageGif p {
+    text-align: center;
+    position: relative;
+    padding: 20% 0;
+}
+
+#loadingImageGif img {
+    position: relative;
+    z-index: 5;
+    box-shadow: outset 10px 1px 10px #ffffff;
+    width: 100%;
+    max-width: 200px;
+    min-width: 200px;
+    background-image: none;
+}

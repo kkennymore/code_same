@@ -1,0 +1,79 @@
+{
+    "short_name": "PayBuyMax",
+    "name": "PayBuyMax",
+    "start_url": "/home/index/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#6b380b",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "icons": [{
+            "src": "/Pwa/Images/favicon-32x32.png",
+            "type": "image/png",
+            "sizes": "32x32",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/Pwa/Images/android-chrome-192x192.png",
+            "type": "image/png",
+            "sizes": "192x192",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/Pwa/Images/mstile-150x150.png",
+            "type": "image/png",
+            "sizes": "270x270",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/Pwa/Images/android-chrome-512x512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ],
+    "description": "Number One Source For Trading Cryptocurrency",
+    "screenshots": [{
+        "src": "/Pwa/Images/screenshot.png",
+        "type": "image/png",
+        "sizes": "540x720",
+        "purpose": "any maskable"
+    }],
+    "categories": [
+        "smart payment",
+        "smart receive",
+        "secure financial transactions"
+    ],
+    "shortcuts": [{
+            "name": "Menu",
+            "short_name": "PayBuyMax",
+            "description": "Visit page",
+            "url": "/",
+            "icons": [{
+                "src": "/Pwa/Shortcuts/home.png",
+                "sizes": "128x128"
+            }]
+        },
+        {
+            "name": "About",
+            "short_name": "About Us",
+            "description": "About Us",
+            "url": "/about/index/",
+            "icons": [{
+                "src": "/Pwa/Shortcuts/search.png",
+                "sizes": "128x128"
+            }]
+        },
+        {
+            "name": "Contact",
+            "short_name": "Contact Us",
+            "description": "Contact Us",
+            "url": "/contact/index/",
+            "icons": [{
+                "src": "/Pwa/Shortcuts/search.png",
+                "sizes": "128x128"
+            }]
+        }
+    ]
+
+}

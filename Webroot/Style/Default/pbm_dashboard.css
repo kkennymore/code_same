@@ -1,0 +1,354 @@
+#bottom_nav_active {
+    border-top: 1px solid #aa6325;
+    background-color: #f9f9f9;
+    color: #000000;
+    animation: 1s moreMenuEffect linear;
+}
+
+#bottom_nav_active i {
+    opacity: 0.9;
+}
+
+#dashborad_side_nav_active {
+    border-right: 5px solid #aa6325;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.footer-nav-wrap {
+    display: none;
+}
+
+
+/* main container*/
+
+.pbm-container-wrap {
+    display: grid;
+    grid-template-columns: 1.4fr 8fr;
+    height: 100%;
+}
+
+.pbm-left-side-menu {
+    background-color: rgba(4, 4, 17, 0.9);
+    width: 100%;
+    height: 100vh;
+    min-width: 250px;
+    max-width: 300px;
+    box-shadow: 0 4px 6px 0 rgba(000, 000, 000, 0.4);
+    border-top: 5px solid #aa6325;
+    display: block;
+}
+
+.pbm-left-side-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pbm-left-side-menu ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.pbm-left-side-menu ul li a {
+    margin: 0;
+    padding: 10px;
+    display: block;
+    color: #aa6325;
+    text-decoration: none;
+}
+
+.pbm-left-side-menu ul li a:hover {
+    border-right: 5px solid #aa6325;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.pbm-left-side-menu ul li a i {
+    padding: 10px 20px 10px 10px;
+}
+
+
+/*dashboard wallets page */
+
+.pbm-wallet-wrapper {
+    width: 100%;
+    background-color: rgba(4, 4, 17, 1);
+    box-shadow: 0 4px 2px 0 rgba(000, 000, 000, 0.1);
+    padding: 20px;
+    height: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+    text-align: center;
+    opacity: 0.9;
+    position: relative;
+    display: block;
+}
+
+.pbm-mobile-wrap,
+.pbm-m-nav-btn-wrap {
+    height: 100%;
+    min-height: 110vh;
+    max-height: 110vh;
+}
+
+.pbm-wallet-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    grid-gap: 10px;
+    margin: 10px;
+    opacity: 1;
+}
+
+.pbm-account-details-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.pbm-account-amount {
+    padding: 50px;
+    box-shadow: 0 0 3px 0 rgba(255, 255, 255, 0.09);
+    border-radius: 5px;
+    min-height: 300px;
+}
+
+.pbm-funding {
+    margin: 40px 10px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.02);
+    padding: 40px 20px;
+    border-radius: 5px;
+}
+
+.pbm-funding li {
+    list-style-type: none;
+    margin: 0;
+    display: inline-block;
+    padding: 15px 70px;
+    opacity: 0.6;
+    box-shadow: 0 0 5px 0 rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+.pbm-funding li:first-child {
+    margin-right: 10px;
+}
+
+.pbm-funding li:last-child {
+    margin-left: 10px;
+}
+
+.pbm-funding li a {
+    color: #f1f1f1;
+    display: block;
+    text-decoration: none;
+}
+
+.pbm-funding li:hover {
+    opacity: 1;
+    color: rgba(4, 4, 17, 1);
+    transition: 3s background-color;
+    cursor: pointer;
+}
+
+.pbm-funding li:first-child {
+    background-color: #aa6325;
+}
+
+.pbm-funding li:last-child {
+    background-color: rgb(4, 54, 31);
+}
+
+.pbm-amount {
+    text-align: center;
+}
+
+.pbm-account-amount h1 {
+    color: #777777;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 20px;
+}
+
+.pbm-funding-btn-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pbm-coins-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pbm-coins li,
+.pbm-buy-sell li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pbm-coins {
+    padding: 10px;
+}
+
+.pbm-naira li {
+    list-style-type: none;
+    display: inline;
+}
+
+.pbm-naira {
+    margin: 20px 0 0 0;
+}
+
+.pbm-naira li a {
+    padding: 20px;
+}
+
+.pbm-naira li:first-child a {
+    font-size: 30px;
+    color: #aa6325;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pbm-naira li:last-child a {
+    font-size: 20px;
+    color: rgb(4, 54, 31);
+    padding: 7px 25px;
+    font-weight: bold;
+    border: 1px solid rgb(4, 54, 31);
+    border-radius: 5px;
+}
+
+.pbm-buy-sell {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.pbm-buy-sell li {
+    text-align: center;
+    display: inline-block;
+}
+
+.pbm-buy-sell li a {
+    color: #aa6325;
+    font-size: 24px;
+    padding: 20px 60px;
+    line-height: 26px;
+    display: block;
+    text-align: center;
+    box-shadow: 0 0 3px 0 rgba(255, 255, 255, 0.09);
+}
+
+.pbm-coins li a {
+    color: #777777;
+}
+
+.pbm-coins li:first-child a {
+    color: #aa6325;
+}
+
+.pbm-coins li:last-child a {
+    color: red;
+}
+
+.pbm-buy-sell li:last-child a {
+    color: red;
+}
+
+
+/*dashboard header*/
+
+.pbm-dashboard-header {
+    background-color: rgba(4, 4, 17, 1);
+    text-align: right;
+    padding: 10px 20px;
+    opacity: 0.9;
+}
+
+.pbm-dashboard-header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pbm-dashboard-header ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pbm-dashboard-header ul li a {
+    margin: 0 10px;
+    padding: 5px 20px;
+    line-height: 40px;
+    color: #777777;
+    border: 1px solid #aa6325;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.pbm-dashboard-header ul li a:hover {
+    opacity: 1;
+    transition: 0.1s opacity;
+}
+
+
+/*dashboard bottom nav*/
+
+.footer-nav-wrap {
+    background-color: rgba(4, 4, 17, 1);
+    border-top: 1px solid rgba(4, 4, 17, 0.5);
+    box-shadow: 0 4px 6px 0 rgba(000, 000, 000, 0.1);
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 40px;
+}
+
+.footer-nav-wrap ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.6fr 1fr;
+}
+
+.footer-nav-wrap ul li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.footer-nav-wrap ul li a {
+    text-overflow: ellipsis;
+    padding: 5px 1px;
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    color: #777777;
+    font-weight: bold;
+    font-size: 12px;
+    border-top: 1px solid transparent;
+}
+
+.footer-nav-wrap ul li a:focus,
+.footer-nav-wrap ul li a:active {
+    background: #f6f6f6;
+    content: 'Loading..';
+}
+
+.footer-nav-wrap ul li a i {
+    padding: 2px 2px 2px 0;
+    color: #aa6325;
+    font-size: 20px;
+}

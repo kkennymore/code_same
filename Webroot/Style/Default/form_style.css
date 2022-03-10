@@ -1,0 +1,209 @@
+.recharge-form {
+    width: 100%;
+    height: 90vh;
+    min-height: 100%;
+    max-height: 100%;
+    position: relative;
+    padding: 10px;
+    clear: both;
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+}
+
+.recharge-form .form-container {
+    margin-top: 110px;
+    position: relative;
+    background-image: linear-gradient(90deg, #ffffff, transparent, #C9782F, transparent, transparent);
+    transform: rotate(50deg);
+    padding: 100px;
+    transform: skewY(10deg);
+    transform: skewX(20deg);
+    margin-left: -20px;
+    margin-top: 5px;
+}
+
+.blur {
+    background: url("/Webroot/images/SiteImages/loginbg.jpg") no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    filter: blur(1px);
+}
+
+.recharge-form form {
+    width: 100%;
+    max-width: 400px;
+    min-width: 50px;
+    position: relative;
+    height: fit-content;
+    padding: 40px 20px;
+    margin: 1% 30px 3% 30px;
+    background-image: linear-gradient(180deg, #ffffff, #ffffff, #fff5eb);
+    box-shadow: outset 0px 1px 10px #e1e1e1;
+    border-top: 5px solid #C9782F;
+    border-radius: 5px;
+    animation: 2s fadeInTransition linear;
+    box-shadow: 0 0.3px 2px 0px rgba(0, 0, 0, .1);
+    transform: rotate(-50deg);
+    transform: skewY(-10deg);
+    transform: skewX(-20deg);
+}
+
+.recharge-form form .input-label-wrap {
+    margin: 30px 0;
+    background-color: #ffffff;
+    border-radius: 5px;
+    z-index: 5;
+}
+
+.recharge-form form .input-label-wrap .form-input {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #f1f1f1;
+    color: #C9782F;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+.password-wrap {
+    width: 100%;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 5fr 1.5fr;
+    border: 1px solid #f1f1f1;
+    outline: none;
+    border-radius: 4px;
+}
+
+.password-wrap input {
+    border-radius: 4px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    color: #C9782F;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: none;
+    min-width: 100px;
+    width: 100%;
+}
+
+.password-wrap span {
+    text-align: center;
+    text-decoration: none;
+    color: #C9782F;
+    font-weight: normal;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    line-height: inherit;
+    padding: 12px;
+    opacity: 0.4;
+    margin: 0;
+    display: block;
+    min-width: 50px;
+    background-color: transparent;
+}
+
+.recharge-form form .input-label-wrap .form-input:focus,
+.recharge-form form .input-label-wrap .form-input:active {
+    border: 1px solid #f1f1f1;
+    font-weight: bold;
+    outline: none;
+    font-size: 18px;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+/* Firefox */
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.recharge-form form .input-label-wrap .label-wrap {
+    color: #888888;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.submitBtn-wrap {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.submitBtn {
+    padding: 10px 20px;
+    box-shadow: inset 1px 1px 0px #e1e1e1;
+    background-color: #C9782F;
+    color: #ffffff;
+    min-width: 150px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.for-password {
+    padding: 20px;
+    width: 100%;
+}
+
+.form-link {
+    margin-top: 20px;
+    border-top: 1px solid #ffffff;
+    padding: 20px;
+    width: 100%;
+}
+
+.form-link a,
+.for-password a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: #C9782F;
+    cursor: pointer;
+    min-width: 120px;
+    max-width: 200px;
+}
+
+.response-display {
+    text-align: center;
+    z-index: 20;
+    position: absolute;
+    top: 10px;
+    animation: 3s fadeInErrorTransition linear;
+    width: 100%;
+    max-width: 500px;
+    min-width: 50px;
+    display: block;
+}
+
+.response-display .response {
+    position: relative;
+    left: 0;
+}
+
+.response-display p {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    animation: 3s fadeInErrorTransition linear;
+    max-width: 400px;
+}
